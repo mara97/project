@@ -1,4 +1,4 @@
-﻿<?php 
+<?php 
 include "app/model.php";
 $newDb= new Database('localhost','root','','usercv');
  ?>
@@ -22,7 +22,7 @@ $newDb= new Database('localhost','root','','usercv');
   <script type="text/javascript" src="js/materialize.min.js"></script>
 
 
-  <div class="">
+   <div class="">
     <div class="row">
 
       <div class="col s12 m2 offset-m1">
@@ -30,10 +30,10 @@ $newDb= new Database('localhost','root','','usercv');
           <div class="card-content grey-text">
             <span >Select color</span>
             <ul class="pagination">
-              <li class="waves-effect"><a href="#!"><div class="teal ball"></div></a></li>
-              <li class="waves-effect"><a href="#!"><div class="blue ball"></div></a></li>
-              <li class="waves-effect"><a href="#!"><div class="red ball"></div></a></li>
-              <li class="waves-effect"><a href="#!"><div class="purple ball"></div></a></li>
+              <li class="waves-effect"><a href="#!"><div class="teal ball" name="teal-text"></div></a></li>
+              <li class="waves-effect"><a href="#!"><div class="blue ball" name="blue-text"></div></a></li>
+              <li class="waves-effect"><a href="#!"><div class="red ball" name="red-text"></div></a></li>
+              <li class="waves-effect"><a href="#!"><div class="purple ball" name="purple-text"></div></a></li>
             </ul>
             <a href="#" class="btn grey btn-text"> <i class="material-icons left">loop</i>Change design</a>
             <a href="#" class="btn  grey btn-text"> <i class="material-icons left">description</i>Save as draft</a>

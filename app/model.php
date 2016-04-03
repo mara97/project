@@ -90,244 +90,101 @@
 				$cvWorkDate4=$row['cv_work_date4'];
 				$cvWorkStatus4=$row['cv_work_status4'];
 				$cvWorkAbout4=$row['cv_work_about4'];
-				echo "      <div class='
-col s12 m9'
->
+				echo "            <div class="col s12 m9">
 
 
-       <div class='
-col s12 m3'
->
-        <div class='
-card'
->
-          <div class='
-card-image'
->
-            <img src=$cvImg
- class='
-responsive-img'
->
+       <div class="col s12 m3">
+        <div class="card">
+          <div class="card-image">
+            <img src="images/1.png" class="responsive-img">
           </div>
-          <div class='
-card-content'
->
-            <blockquote class='
- grey-text'
->
-              $cvPhone
+          <div class="card-content">
+            <blockquote class=" grey-text">
+              +994 55 885 73 09
             </blockquote>
 
-            <blockquote class='
- grey-text'
->
-              $cvEmail
+            <blockquote class=" grey-text">
+              knyaz.yaqublu@gmail.com
             </blockquote>
 
-            <blockquote class='
- grey-text'
->
-              $cvSocial
+            <blockquote class=" grey-text">
+              twitter.com@knyaz
             </blockquote>
 
-            <blockquote class='
- grey-text'
->
-              $cvWeb
+            <blockquote class=" grey-text">
+              www.knyazik.com
             </blockquote>
 
-            <blockquote class='
- grey-text'
->
-              $cvAdress
+            <blockquote class=" grey-text">
+              Ataturk ave.33 Baku Azerbaijan
             </blockquote>
-            <div class='
-languages'
->
-              <i class='
-material-icons left grey-text'
->language</i><h5 class='
-blue-text'
->LANGUAGES</h5>
+            <div class="languages">
+              <i class="material-icons left grey-text">language</i><h5 class="blue-text " name="desingText">LANGUAGES</h5>
 
-              <span class='
-grey-text text-darken-2'
->ENGLISH</span> <i class='
-material-icons tiny right blue-text'
->stars</i>
-              <i class='
-material-icons tiny right blue-text'
->stars</i>
-              <i class='
-material-icons tiny right blue-text'
->stars</i>
-              <i class='
-material-icons tiny right blue-text'
->stars</i>
-              <i class='
-material-icons tiny right blue-text'
->stars</i>
+              <span class="grey-text text-darken-2">ENGLISH</span> <i class="material-icons tiny right blue-text"  name="desingText">stars</i>
+              <i class="material-icons tiny right blue-text  " name="desingText">stars</i>
+              <i class="material-icons tiny right blue-text  " name="desingText">stars</i>
+              <i class="material-icons tiny right blue-text  " name="desingText">stars</i>
+              <i class="material-icons tiny right blue-text  " name="desingText">stars</i>
 
-              <span class='
-grey-text text-darken-2'
->RUSSIAN</span> <i class='
-material-icons tiny right blue-text'
->stars</i>
-              <i class='
-material-icons tiny right blue-text'
->stars</i>
-              <i class='
-material-icons tiny right blue-text'
->stars</i>
-              <i class='
-material-icons tiny right blue-text'
->stars</i>
-              <i class='
-material-icons tiny right blue-text'
->stars</i>
+              <span class="grey-text text-darken-2">RUSSIAN</span> <i class="material-icons tiny right blue-text" name="desingText">stars</i>
+              <i class="material-icons tiny right blue-text  " name="desingText">stars</i>
+              <i class="material-icons tiny right blue-text  " name="desingText">stars</i>
+              <i class="material-icons tiny right blue-text  " name="desingText">stars</i>
+              <i class="material-icons tiny right blue-text  " name="desingText">stars</i>
 
-              <span class='
-grey-text text-darken-2'
->SPANISH</span> <i class='
-material-icons tiny right blue-text'
->stars</i>
-              <i class='
-material-icons tiny right blue-text'
->stars</i>
-              <i class='
-material-icons tiny right blue-text'
->stars</i>
-              <i class='
-material-icons tiny right blue-text'
->stars</i>
-              <i class='
-material-icons tiny right blue-text'
->stars</i>
+          <span class="grey-text text-darken-2">SPANISH</span> <i class="material-icons tiny right blue-text"  name="desingText">stars</i>
+              <i class="material-icons tiny right blue-text  " name="desingText">stars</i>
+              <i class="material-icons tiny right blue-text  " name="desingText">stars</i>
+              <i class="material-icons tiny right blue-text  " name="desingText">stars</i>
+              <i class="material-icons tiny right blue-text  " name="desingText">stars</i>
 
-              <span class='
-grey-text text-darken-2'
->TURKISH</span> <i class='
-material-icons tiny right blue-text'
->stars</i>
-              <i class='
-material-icons tiny right blue-text'
->stars</i>
-              <i class='
-material-icons tiny right blue-text'
->stars</i>
-              <i class='
-material-icons tiny right blue-text'
->stars</i>
-              <i class='
-material-icons tiny right blue-text'
->stars</i>
+              <span class="grey-text text-darken-2">TURKISH</span> <i class="material-icons tiny right blue-text"  name="desingText">stars</i>
+              <i class="material-icons tiny right blue-text  " name="desingText">stars</i>
+              <i class="material-icons tiny right blue-text " name="desingText">stars</i>
+              <i class="material-icons tiny right blue-text " name="desingText">stars</i>
+              <i class="material-icons tiny right blue-text " name="desingText">stars</i>
             
             </div>
            
-            <div class='
-skills'
->
+            <div class="skills">
               
 
            
             
-              <i class='
-material-icons left grey-text'
->list</i><h5 class='
-blue-text'
->SKILLS</h5>
-              <span class='
-grey-text text-darken-2'
->PHOTOSHOP</span> <i class='
-material-icons tiny right blue-text'
->stars</i>
-              <i class='
-material-icons tiny right blue-text'
->stars</i>
-              <i class='
-material-icons tiny right blue-text'
->stars</i>
-              <i class='
-material-icons tiny right blue-text'
->stars</i>
-              <i class='
-material-icons tiny right blue-text'
->stars</i>
+              <i class="material-icons left grey-text">list</i><h5 class="blue-text  " name="desingText">SKILLS</h5>
+              <span class="grey-text text-darken-2">PHOTOSHOP</span> <i class="material-icons tiny right blue-text" name="desingText">stars</i>
+              <i class="material-icons tiny right blue-text " name="desingText">stars</i>
+              <i class="material-icons tiny right blue-text " name="desingText">stars</i>
+              <i class="material-icons tiny right blue-text " name="desingText">stars</i>
+              <i class="material-icons tiny right blue-text " name="desingText">stars</i>
 
-              <span class='
-grey-text text-darken-2'
->HTML/CSS</span> <i class='
-material-icons tiny right blue-text'
->stars</i>
-              <i class='
-material-icons tiny right blue-text'
->stars</i>
-              <i class='
-material-icons tiny right blue-text'
->stars</i>
-              <i class='
-material-icons tiny right blue-text'
->stars</i>
-              <i class='
-material-icons tiny right blue-text'
->stars</i>
+              <span class="grey-text text-darken-2">HTML/CSS</span> <i class="material-icons tiny right blue-text" name="desingText">stars</i>
+              <i class="material-icons tiny right blue-text " name="desingText">stars</i>
+              <i class="material-icons tiny right blue-text " name="desingText">stars</i>
+              <i class="material-icons tiny right blue-text " name="desingText">stars</i>
+              <i class="material-icons tiny right blue-text " name="desingText">stars</i>
 
-              <span class='
-grey-text text-darken-2'
->ILLUSTRATOR</span> <i class='
-material-icons tiny right blue-text'
->stars</i>
-              <i class='
-material-icons tiny right blue-text'
->stars</i>
-              <i class='
-material-icons tiny right blue-text'
->stars</i>
-              <i class='
-material-icons tiny right blue-text'
->stars</i>
-              <i class='
-material-icons tiny right blue-text'
->stars</i>
+              <span class="grey-text text-darken-2">ILLUSTRATOR</span> <i class="material-icons tiny right blue-text" name="desingText">stars</i>
+              <i class="material-icons tiny right blue-text " name="desingText">stars</i>
+              <i class="material-icons tiny right blue-text " name="desingText">stars</i>
+              <i class="material-icons tiny right blue-text " name="desingText">stars</i>
+              <i class="material-icons tiny right blue-text " name="desingText">stars</i>
 
-              <span class='
-grey-text text-darken-2'
->SKETCH</span> <i class='
-material-icons tiny right blue-text'
->stars</i>
-              <i class='
-material-icons tiny right blue-text'
->stars</i>
-              <i class='
-material-icons tiny right blue-text'
->stars</i>
-              <i class='
-material-icons tiny right blue-text'
->stars</i>
-              <i class='
-material-icons tiny right blue-text'
->stars</i>
+              <span class="grey-text text-darken-2">SKETCH</span> <i class="material-icons tiny right blue-text"  name="desingText">stars</i>
+              <i class="material-icons tiny right blue-text " name="desingText">stars</i>
+              <i class="material-icons tiny right blue-text " name="desingText">stars</i>
+              <i class="material-icons tiny right blue-text " name="desingText">stars</i>
+              <i class="material-icons tiny right blue-text " name="desingText">stars</i>
 
 
              </div>
-             <div class='
-awards'
->
+             <div class="awards">
 
-              <i class='
-material-icons left grey-text'
->grade</i><h5 class='
-blue-text'
->AWARDS</h5>
-              <p class='
-grey-text'
->$cvAwards</p>
+              <i class="material-icons left grey-text">grade</i><h5 class='blue-text' name='desingText'>AWARDS</h5>
+              <p class='grey-text'>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Molestiae a ipsa fugit. Iusto a aspernatur ratione eos officia perspiciatis est porro. Earum pariatur hic eaque, est architecto odit quae cupiditate?Lorem ipsum dolor sit amet, consectetur adipisicing elit.</p>
             </div>
-            <a class='
-btn grey black-text'
-><i class='
-material-icons center'
->add</i> <span>ADD MORE</span></a>
+            <a class='btn grey black-text'><i class='material-icons center'>add</i> <span>ADD MORE</span></a>
 
           </div>
 
@@ -337,162 +194,109 @@ material-icons center'
 
 
 
-      <div class='
-col s12 m9 right white'
->
-        <div class='
-card white darken-1'
->
-          <div class='
-card-content grey-text'
->
-            <h2 class='
-blue-text text-darken-3'
-><b>$cvName2</b></h2>
-            <h5 class='
-grey-text'
-><b>$jobName</b></h5>
-            <h6 class='
-grey-text'
->Date of birth: $birthDate</h6>
+      <div class='col s12 m9 right white'>
+        <div class='card white darken-1'>
+          <div class='card-content grey-text'>
+            <h2 class=' blue-text text-darken-3' name='desingText'><b>KNYAZ YAQUBOV</b></h2>
+            <h5 class='grey-text'><b>GRAPHIC DESIGNER</b></h5>
+            <h6 class='grey-text'>Date of birth: 02.06.1989</h6>
 
-            <p class='
-grey-text'
->
-              $cvAbout</p>
+            <p class='grey-text'>
+              Lorem ipsum dolor sit amet, consectetur adipisicing elit. Molestiae a ipsa fugit. Iusto a aspernatur ratione eos officia 
+              perspiciatis est porro. Earum pariatur hic eaque, est architecto odit quae cupiditate?Lorem ipsum dolor sit amet,
+               consectetur adipisicing elit. Molestiae a ipsa fugit. Iusto a aspernatur ratione eos officia perspiciatis est porro. 
+               Earum pariatur hic eaque, est architecto odit quae cupiditate?Lorem ipsum dolor sit amet, consectetur adipisicing elit.
+                Molestiae a ipsa fugit. Iusto a aspernatur ratione eos officia perspiciatis est porro. Earum pariatur hic eaque, est
+                 architecto odit quae cupiditate?</p>
 
 
 
+                <div class='row'>
+                  
+                   <div class='edit'>
+                    <form action="">
+                      <fieldset>
+                        <legend>
+                          <ul class='fieldset'>
+                            <li><a class='btn'><i class='material-icons'>edit</i></a></li>
+                            <li> <a class='btn waves-effect waves-light'><i class='material-icons'>keyboard_arrow_up</i></a></li>
+                            <li> <a class='btn'><i class='material-icons'>keyboard_arrow_down</i></a></li>
+                          </ul>
+                         
+                         
+                         
+                        </legend>
 
-            <div class='
-edit'
->
-              <i class='
-material-icons left grey-text'
->school</i><h5 class='
-blue-text'
->EDUCATION</h5>
-              <div class='
-row'
-> 
-                <span class='
- grey-text text-darken-2'
-><b>$cvEduDate1 $cvEdu1
-              </b></span> <br>
-              <span class='
-grey-text text-darken-2'
->$cvEduStatus1</span>
-              <p class='
-grey-text'
->$cvEduAbout1</p>
-              </div>
-               
+                            <i class='material-icons left grey-text'>school</i><h5 class='blue-text' name='desingText'>EDUCATION</h5>
+                    <div class='row'> 
+                      <span class=' grey-text text-darken-2'><b>2012-2013 AZƏRBAYCAN DÖVLƏT PEDAQOJİ UNİVERSİTETİ</b></span> <br>
+                      <span class='grey-text text-darken-2'>BAKALAVR</span>
+                      <p class='grey-text'>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Molestiae a ipsa fugit. Iusto 
+                        a aspernatur ratione eos officia perspiciatis est porro.</p>
+                    </div>
+                     
 
-               <div class='
-row'
-> 
-                <span class='
- grey-text text-darken-2'
-><b>$cvEduDate2 $cvEdu2</b></span> <br>
-                <span class='
-grey-text text-darken-2'
->$cvEduStatus2</span>
-                <p class='
-grey-text'
->$cvEduAbout2</p>
-              </div>
-                <div class='
-row'
-> 
-                <span class='
- grey-text text-darken-2'
-><b>$cvEduDate3 $cvEdu3</b></span> <br>
-                <span class='
-grey-text text-darken-2'
->$cvEduStatus3</span>
-                <p class='
-grey-text'
->$cvEduAbout3</p>
-              </div>
+                     <div class='row'> 
+                      <span class=' grey-text text-darken-2'><b>2012-2013 AZƏRBAYCAN DÖVLƏT PEDAQOJİ UNİVERSİTETİ</b></span> <br>
+                      <span class='grey-text text-darken-2'>BAKALAVR</span>
+                      <p class='grey-text'>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Molestiae a ipsa fugit. Iusto 
+                        a aspernatur ratione eos officia perspiciatis est porro.</p>
+                    </div>
+                      <div class='row'> 
+                      <span class=' grey-text text-darken-2'><b>2012-2013 AZƏRBAYCAN DÖVLƏT PEDAQOJİ UNİVERSİTETİ</b></span> <br>
+                      <span class='grey-text text-darken-2'>BAKALAVR</span>
+                      <p class='grey-text'>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Molestiae a ipsa fugit. Iusto 
+                        a aspernatur ratione eos officia perspiciatis est porro.</p>
+
+
+                      </fieldset>
+
+                    </form>
+                    
+                    </div>
 
 
             </div>
+                </div>
+                 
+                
             
-            <div class='
-edit'
->
-              <i class='
-material-icons left grey-text'
->work</i><h5 class='
-blue-text'
->WORK EXPERIENCE</h5>
-              <div class='
-row'
->
-                <span class='
- grey-text text-darken-2'
-><b>$cvWorkDate1 $cvWork1</b></span> <br>
-              <span class='
-grey-text text-darken-2'
->$cvWorkStatus1</span>
-              <p class='
-grey-text'
->$cvWorkAbout1</p> 
+            
+            <div class='edit'>
+              <i class='material-icons left grey-text'>work</i><h5 class='blue-text ' name='desingText'>WORK EXPERIENCE</h5>
+              <div class='row'>
+                 <span class='grey-text text-darken-2'><b>2012-2013 APPLE INC  </b></span> <br>
+                <span class='grey-text text-darken-2'>GRAPHIC AND WEB DESIGN</span>
+                <p class='grey-text'>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Molestiae a ipsa fugit. Iusto
+                 a aspernatur ratione eos officia perspiciatis est porro.</p> 
 
               </div>
-              <div class='
-row'
->
-                 <span class='
-grey-text text-darken-2'
-><b>$cvWorkDate2 $cvWork2  </b></span> <br>
-                <span class='
-grey-text text-darken-2'
->$cvWorkStatus2</span>
-                <p class='
-grey-text'
->$cvWorkAbout2</p> 
+              <div class='row'>
+                 <span class='grey-text text-darken-2'><b>2012-2013 APPLE INC  </b></span> <br>
+                <span class='grey-text text-darken-2'>GRAPHIC AND WEB DESIGN</span>
+                <p class='grey-text'>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Molestiae a ipsa fugit. Iusto
+                 a aspernatur ratione eos officia perspiciatis est porro.</p> 
 
               </div>
 
              
 
-              <div class='
-row'
->
-                <span class='
- grey-text text-darken-2'
-><b>$cvWorkDate3 $cvWork3</b></span> <br>
-                <span class='
-grey-text text-darken-2'
->$cvWorkStatus3</span>
-                <p class='
-grey-text'
->$cvWorkAbout3</p> 
+              <div class='row'>
+                <span class=' grey-text text-darken-2'><b>2012-2013 MICROSOFT CORPORATION</b></span> <br>
+                <span class='grey-text text-darken-2'>GRAPHIC AND WEB DESIGN</span>
+                <p class='grey-text'>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Molestiae a ipsa fugit. Iusto a aspernatur ratione eos officia perspiciatis est porro.</p> 
 
               </div>
 
-              <div class='
-row'
->
-                <span class='
- grey-text text-darken-2'
-><b>$cvWorkDate4 $cvWork4</b></span> <br>
-                <span class='
-grey-text text-darken-2'
->$cvWorkStatus4</span>
-                <p class='
-grey-text'
->$cvWorkAbout4</p> 
+              <div class='row'>
+                <span class=' grey-text text-darken-2'><b>2012-2013 MICROSOFT CORPORATION</b></span> <br>
+                <span class='grey-text text-darken-2'>GRAPHIC AND WEB DESIGN</span>
+                <p class='grey-text'>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Molestiae a ipsa fugit. Iusto a aspernatur ratione eos officia perspiciatis est porro.</p> 
 
               </div>
 
             </div>
-            <a class='
-btn grey black-text'
-><i class='
-material-icons center'
->add</i> <span>ADD MORE</span></a>
+            <a class='btn grey black-text'><i class='material-icons center'>add</i> <span>ADD MORE</span></a>
 
             </div>
            
