@@ -114,20 +114,28 @@ blockquote {
 /*# sourceMappingURL=style.css.map */
 
 
-/* changes for edit border*/
-.editBorder{
-  border:3px solid #009688 !important;
-  border-radius:10px !important;
-}
-
-legend{
+.fieldset{
   display: none;
-
+  position: absolute;
+  right: 7% !important;
 }
 fieldset{
-  border:1px solid #FFFFFF !important;
+  border: 3px solid #FFFFFF !important;
+  margin: 0!important;
+  margin-left: -3px !important;
+  margin-top: 15px !important;
+  padding-top: 10px !important;
 }
-.fieldset{
-  display: inline;
-  list-style-type: none;
+fieldset:hover .fieldset{
+  display: block !important;
 }
+fieldset:hover{
+  border:3px solid #009688 !important;
+  border-radius:10px ;
+}
+
+
+.fieldset li{
+  display: inline-block !important;
+}
+r
