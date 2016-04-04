@@ -120,6 +120,7 @@ blockquote {
   right: 7% !important;
 }
 fieldset{
+  min-height: 60px !important;
   border: 3px solid #FFFFFF !important;
   margin: 0!important;
   margin-left: -3px !important;
@@ -133,9 +134,12 @@ fieldset:hover{
   border:3px solid #009688 !important;
   border-radius:10px ;
 }
-
+.showField{
+  border:3px solid #009688 !important;
+  border-radius:10px ;
+}
 
 .fieldset li{
   display: inline-block !important;
 }
-r
+
