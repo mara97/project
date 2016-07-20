@@ -8,6 +8,7 @@
 	<link rel="stylesheet" type="text/css" href="/css/style.css">
 	<script type="text/javascript" src="/js/jquery.js"></script>
 <script type="text/javascript" src="/js/materialize.min.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/0.97.6/js/materialize.min.js"></script>
 <script type="text/javascript" src="//platform.linkedin.com/in.js">
     api_key: 778qjo8w5h2zvl
     authorize: true

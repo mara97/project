@@ -57,6 +57,10 @@
   padding: 2px 10px;
   display: inline-block; }
 
+i.left {
+    float: left;
+   margin-right: 5px; 
+}
 nav {
   background-color: #0abc77; }
   nav ul .userBar {
@@ -124,6 +128,9 @@ blockquote {
   background-size: cover;
   transition: all 0.1s linear;
 }
+/*h5{
+  font-size: 20px;  
+}*/
 .template1:hover{
   box-shadow: 0 20px 0 #0abc77 !important;
 }
@@ -206,7 +213,9 @@ fieldset:hover{
   left:0;
   display: none;
 }
-
+.noPadding{
+ padding: 0px !important;
+}
 #education_content{
 display: none;
 width: auto;
@@ -312,7 +321,7 @@ label[for=checkbox], label[for=checkbox1]{
   right: 7%;
   color: red;
   display: none;
-  font-size: 10px;
+  font-size: 5px;
 }
 .innerEditContact{
   right: 0% !important;
@@ -323,7 +332,7 @@ label[for=checkbox], label[for=checkbox1]{
 }
 .innerEditContact i{
   margin-right: 5px !important;
-  font-size: 25px !important;
+  font-size: 15px !important;
 }
 .addIcon{
   color: green !important;
@@ -338,9 +347,11 @@ label[for=checkbox], label[for=checkbox1]{
   cursor: pointer;
   transition: all 0.1s ease-in-out;
   border-radius: 100%;
+  padding: 3px !important;
+  background-color: rgba(240, 240, 240, 0.9);
 }
 .edit{
-  color: orange;
+  color: #009688;
 }
 .eduEdit, .addImagePop, .workEdit, .pDataEdit, .editPhonePop, .addPhonePop, .editEmailPop, .addEmailPop, .addSocialPop, .editSocialPop, .addAdressPop, .editAdressPop,.addLanguagePop,.editLanguagePop,.addSkillsPop,.editSkillsPop,.addAwardsPop,.editAwardsPop{
   display: none;
@@ -383,12 +394,7 @@ select{
 .contactIcon{
   color: #3A3A3A;
 }
-.innerIcons{
-  border-radius: 100%;
-  padding: 3px !important;
-  background-color: rgba(240, 240, 240, 0.9);
 
-}
 .noShadow{
   box-shadow: none !important;
 }

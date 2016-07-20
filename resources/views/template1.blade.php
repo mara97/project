@@ -733,7 +733,7 @@
             </ul>
             </div>
             <a href="#" class="btn grey btn-text"> <i class="material-icons left">loop</i>Change design</a>
-            <a href="#" class="btn  grey btn-text"> <i class="material-icons left">description</i>Save as draft</a>
+            <a href="#" class="btn  grey btn-text"> <i class="material-icons left">description</i>Publish</a>
           </div>
           <div class="card-action">
             <a href="javascript:demoFromHTML()" class="waves-effect waves-light btn">PUBLISH</a>
@@ -783,7 +783,9 @@
           @endforeach
             <div class="languages">
               <i class="material-icons left grey-text">language</i>
-              <h5 class="blue-text " name="desingText" id="languageHead">LANGUAGES<i class="material-icons edit addIcon addLanguage" name="">add</i></h5>
+              <h5 class="blue-text " name="desingText" id="languageHead">LANGUAGES
+                <i class="material-icons edit addIcon addLanguage" name="">add</i>
+              </h5>
               @foreach($languages as $language)
               <div class="languageRow">
                <div class="innerEditContact">
