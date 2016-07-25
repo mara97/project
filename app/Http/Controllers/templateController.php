@@ -64,11 +64,14 @@ class templateController extends Controller
 
       // Default template fields
 
+
       DB::table('personal_data')->insert(['personal_data_fname' => $username, 'image_url' => '/images/1.png', 'personal_data_bdate' => "00/00/0000", 'personal_data_info' => "About your self", 'personal_data_profession' => "Your profession", 'cv_id' => $userNewCvId]);
 
 
+
       DB::table('personal_contact')->insert(['personal_contact_name' => "Email", 'personal_contact_data' => "example@asancv.com" , 'cv_id' => $userNewCvId]);
-      DB::table('personal_contact')->insert(['personal_contact_name' => "Phone", 'personal_contact_data' => "050 000 00 00" , 'cv_id' => $userNewCvId]);
+      DB::table('personal_contact')->insert(['personal_contact_name' => "Phone", 'personal_contact_data' => "000 000 00 00" , 'cv_id' => $userNewCvId]);
+
 
       DB::table('languages')->insert(['language_name' => 'Language', 'language_level' => 'language level', 'cv_id' => $userNewCvId]);
       DB::table('languages')->insert(['language_name' => 'Another language', 'language_level' => 'level', 'cv_id' => $userNewCvId]);
@@ -79,6 +82,7 @@ class templateController extends Controller
      DB::table('works')->insert(['work_date' => '2013 - 2016', 'cv_id' => $userNewCvId, 'work_company' => 'Name of your work company', 'work_profession' => 'Your profession', 'work_info' => 'Some information about this work']);
 
       DB::table('educations')->insert(['education_date' => '2008-2012', 'cv_id' => $userNewCvId, 'education_name' => 'Where you studied', 'education_degree' => 'Degree', 'education_info' => 'Some information about your education']);
+
       // Default template fields end
 
       return redirect("cv/$userNewCvId");
@@ -269,7 +273,7 @@ class templateController extends Controller
     function userArea($id){
       if($id==Auth::user()->id){
       $userCvs = DB::table('cv')->where('user_id', $id)->get();
-        return view('userarea', compact('id', 'userCvs'));
+        return view('userarea', compact('id', 'userCvs','userPersonalDatas'));
       }else{
         return redirect("/");  
       }

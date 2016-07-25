@@ -8,8 +8,8 @@
 				    <ul class="collection">
 				      <li class="collection-item pointer" id="resumes">Created resumes</li>
 				      <li class="collection-item pointer" id="infos">Personal information</li>
-				      <li class="collection-item pointer"><a class="blackColor" href="/select ">New Resume</a></li>
-				      <li class="collection-item pointer"><a class="blackColor" href="{{ url('/logout') }}">Log out</a></li>
+				      <li class="collection-item pointer"><a class="blackColor" href="{{ url('../select') }}">New Resume</a></li>
+				      <li class="collection-item pointer"><a class="blackColor" href="{{ url('../logout') }}">Log out</a></li>
 
    					</ul>
 			</div>

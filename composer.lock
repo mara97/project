@@ -308,6 +308,7 @@
         },
         {
             "name": "laravel/framework",
+
             "version": "5.2.41",
             "source": {
                 "type": "git",
@@ -318,6 +319,7 @@
                 "type": "zip",
                 "url": "https://api.github.com/repos/laravel/framework/zipball/29ba2e310cfeb42ab6545bcd81ff4c2ec1f6b5c2",
                 "reference": "29ba2e310cfeb42ab6545bcd81ff4c2ec1f6b5c2",
+
                 "shasum": ""
             },
             "require": {
@@ -434,7 +436,9 @@
                 "framework",
                 "laravel"
             ],
+
             "time": "2016-07-20 13:13:06"
+
         },
         {
             "name": "laravelcollective/html",
@@ -492,6 +496,7 @@
         },
         {
             "name": "league/flysystem",
+
             "version": "1.0.25",
             "source": {
                 "type": "git",
@@ -502,6 +507,7 @@
                 "type": "zip",
                 "url": "https://api.github.com/repos/thephpleague/flysystem/zipball/a76afa4035931be0c78ca8efc6abf3902362f437",
                 "reference": "a76afa4035931be0c78ca8efc6abf3902362f437",
+
                 "shasum": ""
             },
             "require": {
@@ -571,7 +577,9 @@
                 "sftp",
                 "storage"
             ],
+
             "time": "2016-07-18 12:22:57"
+
         },
         {
             "name": "monolog/monolog",
@@ -953,6 +961,7 @@
         },
         {
             "name": "swiftmailer/swiftmailer",
+
             "version": "v5.4.3",
             "source": {
                 "type": "git",
@@ -963,6 +972,7 @@
                 "type": "zip",
                 "url": "https://api.github.com/repos/swiftmailer/swiftmailer/zipball/4cc92842069c2bbc1f28daaaf1d2576ec4dfe153",
                 "reference": "4cc92842069c2bbc1f28daaaf1d2576ec4dfe153",
+
                 "shasum": ""
             },
             "require": {
@@ -1002,7 +1012,9 @@
                 "mail",
                 "mailer"
             ],
+
             "time": "2016-07-08 11:51:25"
+
         },
         {
             "name": "symfony/console",
@@ -2500,6 +2512,7 @@
         },
         {
             "name": "phpunit/phpunit",
+
             "version": "4.8.27",
             "source": {
                 "type": "git",
@@ -2510,6 +2523,7 @@
                 "type": "zip",
                 "url": "https://api.github.com/repos/sebastianbergmann/phpunit/zipball/c062dddcb68e44b563f66ee319ddae2b5a322a90",
                 "reference": "c062dddcb68e44b563f66ee319ddae2b5a322a90",
+
                 "shasum": ""
             },
             "require": {
@@ -2568,7 +2582,9 @@
                 "testing",
                 "xunit"
             ],
+
             "time": "2016-07-21 06:48:14"
+
         },
         {
             "name": "phpunit/phpunit-mock-objects",
