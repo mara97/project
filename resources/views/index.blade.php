@@ -8,6 +8,7 @@
 	<link rel="stylesheet" type="text/css" href="/css/style.css">
 	<script type="text/javascript" src="/js/jquery.js"></script>
 <script type="text/javascript" src="/js/materialize.min.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/0.97.6/js/materialize.min.js"></script>
 <script type="text/javascript" src="//platform.linkedin.com/in.js">
     api_key: 778qjo8w5h2zvl
     authorize: true
@@ -164,7 +165,7 @@
       			<li><a class="dropdown-button userBar" href="#!" data-activates="dropdown1"><img src="images/resumes.png">{{ Auth::user()->name }} <span class="caret"></span><i class="material-icons right">arrow_drop_down</i></a></li>
    		 </ul>
 	      
-	       <li style="margin-right: 15px; margin-top: 10px;"><a class="logoutButton" href="{{ url('/logout') }}">Logout</a></li>
+	       <li style="margin-right: 15px; margin-top: 10px;"><a class="logoutButton" href="{{ url('/logout') }}">Log out</a></li>
 	      </ul>
 	      @endif
 	    </div>
